@@ -35,7 +35,7 @@ if (process.env.NODE_ENV === `production` && config.siteUrl === `http://localhos
 */
 module.exports = {
     siteMetadata: {
-        siteUrl: process.env.SITEURL || config.siteUrl,
+        siteUrl: 'http://www.droplets.club/',
         title: `Droplets`,
         description: `A blog to teach about terrariums, aquariums, and paludariums. Learn how to build and maintian these ecosystems`,
         author: `Joscelyn James`,
